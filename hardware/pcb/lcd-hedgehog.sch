@@ -5590,6 +5590,49 @@ http://de.farnell.com/1578387</description>
 <text x="-1.905" y="-3.9116" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.9" y1="-1.9" x2="1.9" y2="1.9" layer="41"/>
 </package>
+<package name="BLE113-A">
+<wire x1="0" y1="0" x2="9.15" y2="0" width="0.127" layer="21"/>
+<wire x1="9.15" y1="0" x2="9.15" y2="15.73" width="0.127" layer="21"/>
+<wire x1="9.15" y1="15.73" x2="0" y2="15.73" width="0.127" layer="21"/>
+<wire x1="0" y1="15.73" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="P$1" x="0.65" y="15.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$2" x="0.65" y="14.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$3" x="0.65" y="13.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$4" x="0.65" y="12.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$5" x="0.65" y="11.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$6" x="0.65" y="11.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$7" x="0.65" y="10.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$8" x="0.65" y="9.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$9" x="0.65" y="8.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$10" x="0.65" y="7.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$11" x="0.65" y="7.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$12" x="0.65" y="6.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$13" x="0.65" y="5.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$14" x="0.65" y="4.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$15" x="0.65" y="3.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$16" x="0.65" y="3.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$17" x="0.65" y="2.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$18" x="0.65" y="1.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$19" x="2.575" y="0.4" dx="0.5" dy="2" layer="1" roundness="100" rot="R180"/>
+<smd name="P$20" x="3.375" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$21" x="4.175" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$22" x="4.975" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$23" x="5.775" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$24" x="6.575" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$25" x="8.5" y="1.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$26" x="8.5" y="2.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$27" x="8.5" y="3.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$28" x="8.5" y="3.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$29" x="8.5" y="4.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$30" x="8.5" y="5.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$31" x="8.5" y="6.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$32" x="8.5" y="7.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$33" x="8.5" y="7.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$34" x="8.5" y="8.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$35" x="8.5" y="9.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$36" x="8.5" y="10.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<rectangle x1="3.5" y1="10.5" x2="12.3" y2="15.725" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESONATOR">
@@ -5704,6 +5747,48 @@ http://de.farnell.com/1578387</description>
 <pin name="SET2" x="-15.24" y="-2.54" length="short"/>
 <pin name="GND@1" x="-15.24" y="-12.7" visible="off" length="short"/>
 <pin name="GND@2" x="-15.24" y="-12.7" visible="off" length="short"/>
+</symbol>
+<symbol name="BLE113">
+<pin name="GND@1" x="-25.4" y="22.86" length="middle"/>
+<pin name="GND@2" x="-25.4" y="25.4" length="middle"/>
+<pin name="GND@3" x="-25.4" y="27.94" length="middle"/>
+<pin name="GND@4" x="-25.4" y="30.48" length="middle"/>
+<pin name="GND@5" x="-25.4" y="33.02" length="middle"/>
+<pin name="GND@6" x="-25.4" y="35.56" length="middle"/>
+<pin name="GND@8" x="-25.4" y="20.32" length="middle"/>
+<pin name="GND@9" x="-25.4" y="-7.62" length="middle"/>
+<pin name="GND@10" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="AVDD" x="-25.4" y="17.78" length="middle"/>
+<pin name="P2_2" x="-25.4" y="15.24" length="middle"/>
+<pin name="P2_1" x="-25.4" y="12.7" length="middle"/>
+<pin name="P2_0" x="-25.4" y="10.16" length="middle"/>
+<pin name="P1_7" x="-25.4" y="7.62" length="middle"/>
+<pin name="P1_6" x="-25.4" y="5.08" length="middle"/>
+<pin name="SCL" x="-25.4" y="2.54" length="middle"/>
+<pin name="SDA" x="-25.4" y="0" length="middle"/>
+<pin name="NC" x="-25.4" y="-2.54" length="middle" direction="nc"/>
+<pin name="DVDD" x="-25.4" y="-5.08" length="middle"/>
+<pin name="P1_5" x="-7.62" y="-15.24" length="middle" rot="R90"/>
+<pin name="P1_4" x="-5.08" y="-15.24" length="middle" rot="R90"/>
+<pin name="P1_3" x="-2.54" y="-15.24" length="middle" rot="R90"/>
+<pin name="P1_2" x="0" y="-15.24" length="middle" rot="R90"/>
+<pin name="P1_1" x="2.54" y="-15.24" length="middle" rot="R90"/>
+<pin name="P1_0" x="5.08" y="-15.24" length="middle" rot="R90"/>
+<pin name="P0_7" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="P0_6" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="P0_5" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="P0_4" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="P0_3" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="P0_2" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="P0_1" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="P0_0" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="RESET#" x="25.4" y="15.24" length="middle" rot="R180"/>
+<pin name="NC@1" x="25.4" y="17.78" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@11" x="25.4" y="20.32" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="38.1" x2="-20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-10.16" x2="20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="38.1" width="0.254" layer="94"/>
+<wire x1="20.32" y1="38.1" x2="-20.32" y2="38.1" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5888,6 +5973,56 @@ http://www.st.com/stonline/products/literature/ds/16941/lsm303dlh.pdf</descripti
 <connect gate="G$1" pin="SET2" pad="12"/>
 <connect gate="G$1" pin="VDD" pad="7"/>
 <connect gate="G$1" pin="VDDIO" pad="23"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLE113-A">
+<gates>
+<gate name="G$1" symbol="BLE113" x="7.62" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="BLE113-A">
+<connects>
+<connect gate="G$1" pin="AVDD" pad="P$8"/>
+<connect gate="G$1" pin="DVDD" pad="P$17"/>
+<connect gate="G$1" pin="GND@1" pad="P$6"/>
+<connect gate="G$1" pin="GND@10" pad="P$25"/>
+<connect gate="G$1" pin="GND@11" pad="P$36"/>
+<connect gate="G$1" pin="GND@2" pad="P$5"/>
+<connect gate="G$1" pin="GND@3" pad="P$4"/>
+<connect gate="G$1" pin="GND@4" pad="P$3"/>
+<connect gate="G$1" pin="GND@5" pad="P$2"/>
+<connect gate="G$1" pin="GND@6" pad="P$1"/>
+<connect gate="G$1" pin="GND@8" pad="P$7"/>
+<connect gate="G$1" pin="GND@9" pad="P$18"/>
+<connect gate="G$1" pin="NC" pad="P$16"/>
+<connect gate="G$1" pin="NC@1" pad="P$35"/>
+<connect gate="G$1" pin="P0_0" pad="P$33"/>
+<connect gate="G$1" pin="P0_1" pad="P$32"/>
+<connect gate="G$1" pin="P0_2" pad="P$31"/>
+<connect gate="G$1" pin="P0_3" pad="P$30"/>
+<connect gate="G$1" pin="P0_4" pad="P$29"/>
+<connect gate="G$1" pin="P0_5" pad="P$28"/>
+<connect gate="G$1" pin="P0_6" pad="P$27"/>
+<connect gate="G$1" pin="P0_7" pad="P$26"/>
+<connect gate="G$1" pin="P1_0" pad="P$24"/>
+<connect gate="G$1" pin="P1_1" pad="P$23"/>
+<connect gate="G$1" pin="P1_2" pad="P$22"/>
+<connect gate="G$1" pin="P1_3" pad="P$21"/>
+<connect gate="G$1" pin="P1_4" pad="P$20"/>
+<connect gate="G$1" pin="P1_5" pad="P$19"/>
+<connect gate="G$1" pin="P1_6" pad="P$13"/>
+<connect gate="G$1" pin="P1_7" pad="P$12"/>
+<connect gate="G$1" pin="P2_0" pad="P$11"/>
+<connect gate="G$1" pin="P2_1" pad="P$10"/>
+<connect gate="G$1" pin="P2_2" pad="P$9"/>
+<connect gate="G$1" pin="RESET#" pad="P$34"/>
+<connect gate="G$1" pin="SCL" pad="P$14"/>
+<connect gate="G$1" pin="SDA" pad="P$15"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6271,6 +6406,7 @@ by exp-project-lbr.ulp</description>
 <part name="U$3" library="lighter" deviceset="STUFF_M41T62" device=""/>
 <part name="U$4" library="HedgehogLib" deviceset="SFV23" device=""/>
 <part name="U$5" library="HedgehogLib" deviceset="LM2703" device=""/>
+<part name="U$6" library="jnode" deviceset="BLE113-A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6366,6 +6502,7 @@ by exp-project-lbr.ulp</description>
 <instance part="U$3" gate="G$1" x="81.28" y="30.48"/>
 <instance part="U$4" gate="G$1" x="233.68" y="180.34"/>
 <instance part="U$5" gate="G$1" x="233.68" y="223.52"/>
+<instance part="U$6" gate="G$1" x="76.2" y="172.72"/>
 </instances>
 <busses>
 </busses>

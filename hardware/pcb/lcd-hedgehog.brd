@@ -514,6 +514,49 @@ Metric Code Size 2012</description>
 <text x="-1.905" y="-3.9116" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.9" y1="-1.9" x2="1.9" y2="1.9" layer="41"/>
 </package>
+<package name="BLE113-A">
+<wire x1="0" y1="0" x2="9.15" y2="0" width="0.127" layer="21"/>
+<wire x1="9.15" y1="0" x2="9.15" y2="15.73" width="0.127" layer="21"/>
+<wire x1="9.15" y1="15.73" x2="0" y2="15.73" width="0.127" layer="21"/>
+<wire x1="0" y1="15.73" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="P$1" x="0.65" y="15.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$2" x="0.65" y="14.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$3" x="0.65" y="13.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$4" x="0.65" y="12.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$5" x="0.65" y="11.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$6" x="0.65" y="11.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$7" x="0.65" y="10.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$8" x="0.65" y="9.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$9" x="0.65" y="8.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$10" x="0.65" y="7.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$11" x="0.65" y="7.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$12" x="0.65" y="6.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$13" x="0.65" y="5.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$14" x="0.65" y="4.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$15" x="0.65" y="3.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$16" x="0.65" y="3.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$17" x="0.65" y="2.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$18" x="0.65" y="1.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$19" x="2.575" y="0.4" dx="0.5" dy="2" layer="1" roundness="100" rot="R180"/>
+<smd name="P$20" x="3.375" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$21" x="4.175" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$22" x="4.975" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$23" x="5.775" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$24" x="6.575" y="0.4" dx="0.5" dy="2" layer="1" roundness="100"/>
+<smd name="P$25" x="8.5" y="1.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$26" x="8.5" y="2.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$27" x="8.5" y="3.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$28" x="8.5" y="3.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$29" x="8.5" y="4.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$30" x="8.5" y="5.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$31" x="8.5" y="6.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$32" x="8.5" y="7.05" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$33" x="8.5" y="7.85" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$34" x="8.5" y="8.65" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$35" x="8.5" y="9.45" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<smd name="P$36" x="8.5" y="10.25" dx="0.5" dy="2" layer="1" roundness="100" rot="R90"/>
+<rectangle x1="3.5" y1="10.5" x2="12.3" y2="15.725" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="con-molex">
@@ -829,6 +872,7 @@ design rules under a new name.</description>
 <element name="U$3" library="lighter" package="STUFF_M41T62LC6F" value="STUFF_M41T62" x="-6.6548" y="-9.7536"/>
 <element name="U$4" library="HedgehogLib" package="SFV23" value="SFV23" x="2.1082" y="-12.6746"/>
 <element name="U$5" library="HedgehogLib" package="SOT-23-5" value="LM2703" x="-5.5118" y="-19.558"/>
+<element name="U$6" library="jnode" package="BLE113-A" value="BLE113-A" x="-20.2438" y="-22.5298"/>
 </elements>
 <signals>
 <signal name="GND">
